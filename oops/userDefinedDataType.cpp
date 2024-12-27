@@ -7,6 +7,7 @@ class Student{ // student is new data type created by me
         string name;
         int roll ;
         float marks;
+        int age;
 
 };
 
@@ -19,5 +20,7 @@ int main(){
     x1.name="samay";
     x1.roll=10;
     x1.marks=9.5;
-    cout<<x.name<<endl;
+    cout<<x.name<<endl; // we doing this by . operator
+    cin>>x.age;
+    cout<<x.age<<endl;
 }
